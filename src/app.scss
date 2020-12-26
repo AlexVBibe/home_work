@@ -1,0 +1,12 @@
+@import "~ag-grid-community/src/styles/ag-grid.scss";
+@import "~ag-grid-community/src/styles/ag-theme-balham/sass/ag-theme-balham-mixin.scss";
+
+.ag-theme-balham-dark {
+    /* use theme parameters where possible */
+    --ag-foreground-color: deeppink;
+    --ag-background-color:rgb(23, 53, 93);
+    --ag-odd-row-background-color: null;
+    --ag-selected-row-background-color: rgb(7, 137, 197);
+    --ag-header-background-color: rgb(23, 53, 93);
+    --ag-row-hover-color: rgb(7, 137, 197);
+}

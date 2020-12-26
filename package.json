@@ -1,0 +1,38 @@
+{
+    "name": "javascript-development-environment",
+    "version": "1.0.0",
+    "description": "JavaScript development environment",
+    "scripts": {
+        "test": "jest",
+        "start": "node buildScripts/srcServer.js"
+    },
+    "author": "Alex Labit",
+    "license": "MIT",
+    "dependencies": {
+        "ag-grid-community": "^24.1.0",
+        "ag-grid-react": "^24.1.1",
+        "chart.js": "^2.9.4",
+        "express": "^4.17.1",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/node": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
+        "@babel/preset-react": "^7.12.10",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^5.0.1",
+        "node-sass": "^5.0.0",
+        "nodemon": "^2.0.6",
+        "npm-run-all": "^4.1.5",
+        "open": "^7.3.0",
+        "resolve-url-loader": "^3.1.2",
+        "sass-loader": "^10.1.0",
+        "style-loader": "^2.0.0",
+        "url-loader": "^4.1.1",
+        "webpack": "^5.11.1",
+        "webpack-cli": "^4.3.1",
+        "webpack-dev-middleware": "^4.0.2"
+    }
+}

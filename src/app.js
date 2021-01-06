@@ -2,17 +2,14 @@ import React, { /*useEffect,*/ useState } from "react";
 import LikeButton from './like_button.js';
 import Blotter from './Blotter.js';
 import BarChart from './BarChart.js';
+import { ChuckNorris } from './ChuckNorris/ChuckNorris.js';
+import {providerFactory} from "./Blotter/DataProvider.js";
 
 import './app.css';
 
 function App() {
     const [data, setData] = useState(getChartData());
-    const [rowData, setRowData] = useState([
-        { make: "Toyota", model: "Celica", price: 35000 },
-        { make: "Ford", model: "Mondeo", price: 32000 },
-        { make: "Porsche", model: "Boxter", price: 72000 },
-        { make: "Porsche", model: "Boxter", price: 72000 }
-    ]);
+    const [rowData, setRowData] = useState(providerFactory.getProvider().loadData());
 
     return (
         <div className='background'>
@@ -21,14 +18,15 @@ function App() {
             </div>
 
             <div class='backgroundDark' style={{ height: 57 }}>
-                <LikeButton />
-                <LikeButton />
-                <LikeButton />
+                <LikeButton Content="Star match" />
+                <LikeButton Content="Sea battle"/>
+                <LikeButton Content="Cross game"/>
+                <LikeButton Content="Chuck Norris"/>
             </div>
 
             <Blotter ItemsSource = {rowData} />
-
-            <div style={{ height: 400 }}>
+            <ChuckNorris />
+            <div style={{ height: 350 }}>
                 <BarChart
                     data={data[1].data}
                     title={data[1].title}

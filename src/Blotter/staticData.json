@@ -1,0 +1,22 @@
+{
+	"data" : [
+                { "make": "Toyota", "model": "Celica", "price": 35000 },
+                { "make": "Toyota", "model": "Prius", "price": 35000 },
+                { "make": "Ford", "model": "Mondeo", "price": 32000 },
+                { "make": "Ford", "model": "Clio", "price": 32000 },
+                { "make": "Lada", "model": "21.01", "price": 72000 },
+                { "make": "Lada", "model": "21.02", "price": 72000 },
+                { "make": "Lada", "model": "21.03", "price": 72000 },
+                { "make": "Lada", "model": "21.04", "price": 72000 },
+                { "make": "Lada", "model": "21.05", "price": 72000 },
+                { "make": "Lada", "model": "21.06", "price": 72000 },
+                { "make": "Lada", "model": "21.07", "price": 72000 },
+                { "make": "Lada", "model": "21.08", "price": 72000 },
+                { "make": "Lada", "model": "21.09", "price": 72000 },
+                { "make": "KIA", "model": "Rio", "price": 32000 },
+                { "make": "KIA", "model": "Niro", "price": 32000 },
+                { "make": "BMW", "model": "X1", "price": 72000 },
+                { "make": "BMW", "model": "X3", "price": 72000 },
+                { "make": "BMW", "model": "X5", "price": 72000 }
+            ]
+}

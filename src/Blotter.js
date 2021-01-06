@@ -12,21 +12,12 @@ import './app.scss';
 class Blotter extends React.Component {
     constructor(props) {
         super(props);
-
-        this.state = {
-            data: [
-                { make: "Toyota", model: "Celica", price: 35000 },
-                { make: "Ford", model: "Mondeo", price: 32000 },
-                { make: "Porsche", model: "Boxter", price: 72000 },
-                { make: "Porsche", model: "Boxter", price: 72000 }
-            ]
-        };
     }
 
     render() {
         return (
             <div className='ag-theme-balham-dark'
-                style={{ height: 400 }}>
+                style={{ height: 350 }}>
                 <AgGridReact
                     rowData={this.props.ItemsSource}>
                     <AgGridColumn field="make"></AgGridColumn>

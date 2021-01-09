@@ -35,10 +35,10 @@ button:hover {
 }
 
 input {
-    font-size: 1.25rem;
+    font-size: 1 rem;
     border: 1px solid rgb(38, 61, 93);
     background-color: rgb(15, 35, 62);
-    margin: 1px;
+    margin: 3px;
     padding: 6px;
 }
 

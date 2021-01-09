@@ -10,3 +10,53 @@
     --ag-header-background-color: rgb(23, 53, 93);
     --ag-row-hover-color: rgb(7, 137, 197);
 }
+
+
+:root {
+
+    --st-overlay-color: rgba(0, 0, 0, 0.4);
+    --st-overlay-z-index: 1000;
+    --st-overlay-transition: opacity 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    --st-overlay-perspective: 1000px;
+
+     /* MODAL WINDOW */
+
+    --st-modal-minWidth: 300px;
+
+    --st-modal-borderRadius: 1px;
+    --st-modal-border: 1px solid rgb(38, 61, 93);
+    --st-modal-boxShadow: 0 0 0px rgba(0, 0, 0, 0.3);
+
+    --st-modal-transformVisible: translate3d(-50%, -50%, 0) scale(1) rotateX(0);
+    --st-modal-transformHidden: translate3d(-50%, 100%, 0) scale(0.5) rotateX(-90deg);
+    --st-modal-transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+
+    --st-modal-backgroundColor: rgb(23, 53, 93);
+    --st-modal-secondColor: rgb(15, 35, 62);;
+    --st-modal-titleTextColor: rgb(183, 190, 201);
+
+    /* BUTTON */
+    --st-button-dangerColor: rgb(15, 35, 62);
+    --st-button-primaryColor: rgb(15, 35, 62);
+    --st-button-lightColor: rgb(15, 35, 62);
+    --st-button-darkColor: rgb(15, 35, 62);
+
+    --st-button-primaryTextColor: rgb(183, 190, 201);
+    --st-button-lightTextColor: rgb(183, 190, 201);
+    --st-button-darkTextColor: rgb(183, 190, 201);
+    --st-button-dangerTextColor: rgb(183, 190, 201);
+
+    --st-button-borderRadius: 1px;
+
+    /* INPUT */
+    --st-input-padding: 0.5rem;
+    --st-input-border: solid 1px #eeeeee;
+    --st-input-borderRadius: 6px;
+
+    /* DIALOG */
+    --st-dialog-baseWidth: 95%;
+    --st-dialog-maxWidth: 600px;
+    --st-dialog-padding: 1rem;
+    --st-dialog-maxContentHeight: 70vh;
+    --st-dialog-contentColor: rgb(183, 190, 201);
+}

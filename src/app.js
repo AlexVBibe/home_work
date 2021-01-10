@@ -5,7 +5,7 @@ import LikeButton from './like_button.js';
 import Blotter from './Blotter.js';
 import BarChart from './BarChart.js';
 import { ChuckNorris } from './ChuckNorris/ChuckNorris.js';
-import { CustomDialogContent, showCustomDialog } from './CustomDialog/CustomDialog.js';
+import { showCustomDialog } from './CustomDialog/CustomDialog.js';
 import { providerFactory } from "./Blotter/DataProvider.js";
 
 import './app.css';
